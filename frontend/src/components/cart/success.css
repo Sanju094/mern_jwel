@@ -1,0 +1,24 @@
+/* styles.css */
+
+/* Centered container */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+/* Container for the GIF */
+.gif-container {
+  width: 200px; /* Set width as needed */
+  height: 200px; /* Set height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the GIF image */
+.gif-image {
+  width: 100%;
+  height: auto;
+}

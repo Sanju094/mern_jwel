@@ -1,0 +1,67 @@
+Ensure the page uses Flexbox layout
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 60%;
+    background-color: #f4f4f4;
+    padding: 5rem;
+    border-right: 1px solid #ddd;
+  }
+  
+
+  .toggle-icon {
+    font-size: 12px; /* Adjust size as needed */
+    color: rgb(79, 76, 76); /* Optional: color for the toggle icon */
+    cursor: pointer;
+  }
+  
+  .content {
+    width: 75%;
+    padding: 1rem;
+  }
+  
+  .category-card {
+    margin-bottom: 1rem;
+  }
+  
+  .category-card h3 {
+    margin: 0;
+  }
+  
+  .category-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category-card li {
+    cursor: pointer;
+    margin: 0.5rem 0;
+  }
+  
+  .category-card li:hover {
+    text-decoration: underline;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex: 1 1 calc(33.333% - 1rem); /* Adjust based on the desired card size and spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card h3 {
+    margin: 0 0 0.5rem;
+  }
+  
+  .product-card p {
+    margin: 0.25rem 0;
+  }
+  
